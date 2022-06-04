@@ -1,76 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T07:45:26.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="7cLstv7hFWH5i_vAQWFx" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T18:10:24.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="ykZlx7qlX55Qp61Xp1wE" version="18.0.7" type="github">
   <diagram id="iTUQmZekEzfw-EaT3AT_" name="第 1 页">
-    <mxGraphModel dx="849" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-1" target="bNe8E2vHjqIGUqz6tPom-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-1" value="动态加载MF组件A B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="230" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-1" value="点击一条消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-3" value="&lt;span style=&quot;&quot;&gt;动态加载MF组件C D&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="230" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-6" target="bNe8E2vHjqIGUqz6tPom-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-6" target="bNe8E2vHjqIGUqz6tPom-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-6" value="根据消息中的&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(187 , 187 , 187) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;tenantId&lt;br&gt;去查对应的code&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-8" value="发送已读回执" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-11" target="bNe8E2vHjqIGUqz6tPom-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-11" value="把消息中的&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(187 , 187 , 187) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;webUrl&lt;br&gt;参数做替换&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;esncode&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;memberid&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;qzid&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;donestatus&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="275" y="440" width="290" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-6" target="bNe8E2vHjqIGUqz6tPom-11">
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.452;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CTF7NgWulzO3J6PB4AeT-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="490" as="sourcePoint" />
-            <mxPoint x="450" y="440" as="targetPoint" />
+            <mxPoint x="320" y="300" as="sourcePoint" />
+            <mxPoint x="370" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-16" target="bNe8E2vHjqIGUqz6tPom-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="400" y="610" />
-              <mxPoint x="320" y="610" />
-            </Array>
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.992;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CTF7NgWulzO3J6PB4AeT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="545" y="630" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="420" y="610" />
-              <mxPoint x="545" y="610" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-6" value="一个基座" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-16" value="打开url方法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-7" value="页面A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="330" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-18" value="如果非https或没有Jdiwork或者带有&lt;span style=&quot;color: rgb(106 , 135 , 89) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;uSpaceOpenType=_blank&lt;br&gt;那么打开新窗口&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="630" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-20" target="bNe8E2vHjqIGUqz6tPom-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-20" value="&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div style=&quot;line-height: 18px&quot;&gt;消息带的tenantId和个人的tenantId不一致,那就带上tenantId(会大刷新)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="710" width="260" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-26" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;jDiwork.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;openWin打开&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="495" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNe8E2vHjqIGUqz6tPom-28" target="bNe8E2vHjqIGUqz6tPom-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bNe8E2vHjqIGUqz6tPom-28" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;特殊处理&lt;br&gt;兼容&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;?在前,#在后会丢失参数的情况&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #6a8759&quot;&gt;appID为205332&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89)&quot;&gt;146785才会处理&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="630" width="175" height="60" as="geometry" />
+        <mxCell id="CTF7NgWulzO3J6PB4AeT-8" value="页面B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="330" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
